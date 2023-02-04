@@ -8,10 +8,12 @@ APIs with Flask works. This Flask application defines two routes: /products and 
 ```
 git clone https://github.com/i-disrupt/flask_rest_api_example.git ./flask_api && cd ./flask_api
 ```
+If `virtualenv` is installed:
 ```
-source env/Scripts/activate && python wsgi.py
+virtualenv env && source env/Scripts/activate && python wsgi.py
 ```
-or
+
+or do it this way:
 ```
 pip install -r requirements.txt && python wsgi.py
 ```
